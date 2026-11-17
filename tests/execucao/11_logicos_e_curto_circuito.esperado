@@ -1,0 +1,9 @@
+VER E FAL = FAL
+VER OU FAL = VER
+VER XOR FAL = VER
+VER XOR VER = FAL
+NAO FAL = VER
+curto-circuito do E: o vetor nem foi lido
+curto-circuito do OU: o vetor nem foi lido
+1
+parenteses

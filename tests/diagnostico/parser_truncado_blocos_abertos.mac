@@ -1,0 +1,25 @@
+inteira principal() @
+[
+    inteira a;
+    a receba 1;
+    cond ( a > 0 ) edai
+    [
+        cond ( a > 0 ) edai
+        [
+            cond ( a > 0 ) edai
+            [
+                cond ( a > 0 ) edai
+                [
+                    cond ( a > 0 ) edai
+                    [
+                        cond ( a > 0 ) edai
+                        [
+                            cond ( a > 0 ) edai
+                            [
+                                cond ( a > 0 ) edai
+                                [
+                                    cond ( a > 0 ) edai
+                                    [
+                                        cond ( a > 0 ) edai
+                                        [
+                                            escreva(a);

@@ -1,0 +1,28 @@
+inteira total;
+
+outrafuncao inteira dobro(inteira x) @
+[
+    respost x * 2;
+]
+
+inteira principal() @
+[
+    inteira x, resto;
+    flut quociente;
+
+    x receba 7;
+    total receba dobro(x);
+
+    cond ( total > 10 ) edai
+    [
+        inteira x;
+        x receba total // 3;
+        resto receba total - x * 3;
+        escreva(resto);
+    ]
+
+    quociente receba total / 4;
+    escreva(quociente);
+
+    respost total;
+]

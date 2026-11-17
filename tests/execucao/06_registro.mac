@@ -1,0 +1,53 @@
+registro Aluno @
+[
+    inteira matricula;
+    flut media;
+    inteira vet{3} notas;
+    palavra nome;
+    bool aprovado;
+]
+
+registro Aluno destaque;
+
+outrafuncao vazio mostra() @
+[
+    escreva(destaque.nome);
+    escreva(destaque.matricula);
+]
+
+inteira principal() @
+[
+    registro Aluno a, b;
+    inteira i, soma;
+
+    a.matricula receba 1234;
+    a.nome receba "Ana";
+    a.notas{0} receba 7;
+    a.notas{1} receba 9;
+    a.notas{2} receba 8;
+
+    soma receba 0;
+    repete ( i receba 0, i < 3, i receba i + 1 ) edai
+    [
+        soma receba soma + a.notas{i};
+    ]
+    a.media receba soma / 3;
+    a.aprovado receba VER;
+
+    escreva(a.nome);
+    escreva(a.matricula);
+    escreva(a.media);
+    escreva(a.aprovado);
+    escreva(b.matricula);
+    escreva(b.aprovado);
+
+    cond ( a.media > 6.0 E a.aprovado ) edai
+    [
+        escreva("passou");
+    ]
+
+    destaque.nome receba "Bia";
+    destaque.matricula receba 99;
+    mostra();
+    respost 0;
+]

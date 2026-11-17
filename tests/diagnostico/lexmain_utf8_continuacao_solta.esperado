@@ -1,0 +1,3 @@
+[ERRO LEXICO] linha 4, coluna 14: byte 0x80 nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 4, coluna 15: byte 0xBF nao pertence ao alfabeto da linguagem
+[ERRO SEMANTICO] linha 4, coluna 21: variavel 'y' usada sem ter sido declarada

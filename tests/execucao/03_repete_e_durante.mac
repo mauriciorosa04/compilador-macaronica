@@ -1,0 +1,45 @@
+inteira principal() @
+[
+    inteira i, j, soma, n, resto, total;
+
+    soma receba 0;
+    repete ( i receba 1, i < 6, i receba i + 1 ) edai
+    [
+        soma receba soma + i;
+    ]
+    escreva(soma);
+
+    n receba 27;
+    i receba 0;
+    durante ( n ! 1 ) edai
+    [
+        resto receba n - n // 2 * 2;
+        cond ( resto == 0 ) edai
+        [
+            n receba n // 2;
+        ]
+        casocontrario edai
+        [
+            n receba 3 * n + 1;
+        ]
+        i receba i + 1;
+    ]
+    escreva(i);
+
+    total receba 0;
+    repete ( i receba 1, i < 4, i receba i + 1 ) edai
+    [
+        repete ( j receba 1, j < 4, j receba j + 1 ) edai
+        [
+            total receba total + i * j;
+        ]
+    ]
+    escreva(total);
+
+    durante ( i < 0 ) edai
+    [
+        escreva("nao entra");
+    ]
+    escreva("fim");
+    respost 0;
+]

@@ -1,0 +1,14 @@
+inteira principal() @
+[
+    bool b;
+    palavra p;
+    inteira n;
+    leia(b);
+    leia(p);
+    leia(n);
+    pinomodo(13);
+    pinoescreve(13, 2.5);
+    n receba espera(10);
+    n receba pinole(2) + 1;
+    respost n;
+]

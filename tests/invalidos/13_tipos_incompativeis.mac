@@ -1,0 +1,19 @@
+inteira principal() @
+[
+    inteira x;
+    palavra nome;
+    flut media;
+    bool ok;
+
+    nome receba 42;
+    x receba media;
+    media receba 7.5 // 2;
+    ok receba nome;
+
+    cond ( nome > 3 ) edai
+    [
+        escreva("nunca");
+    ]
+
+    respost x;
+]

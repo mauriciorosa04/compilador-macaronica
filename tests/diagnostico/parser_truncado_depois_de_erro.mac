@@ -1,0 +1,9 @@
+inteira principal() @
+[
+    inteira a;
+    a receba 1;
+    cond ( a > 0 ) edai
+    [
+        cond ( a > 1 ) edai
+        [
+            a receba 2 3;

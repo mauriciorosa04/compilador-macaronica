@@ -1,0 +1,17 @@
+outrafuncao vazio aviso() @
+[
+    respost 99;
+]
+
+outrafuncao inteira triplo(inteira n) @
+[
+    escreva(n);
+]
+
+inteira principal() @
+[
+    inteira x;
+    x receba 1;
+    aviso();
+    respost x;
+]

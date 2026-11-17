@@ -1,0 +1,27 @@
+inteira vet{4} dados;
+inteira vet{4} dobro;
+
+outrafuncao inteira total() @
+[
+    respost somavet(dados);
+]
+
+outrafuncao vazio dobra() @
+[
+    dobro receba 2 * dados;
+]
+
+inteira principal() @
+[
+    inteira i;
+    repete ( i receba 0, i < 4, i receba i + 1 ) edai
+    [
+        dados{i} receba i * 3;
+    ]
+    dobra();
+    escreva(total());
+    escreva(somavet(dobro));
+    escreva(somavet(dados) * 2 + maxvet(dobro));
+    escreva(prodesc(dados, dobro) // 2);
+    respost 0;
+]

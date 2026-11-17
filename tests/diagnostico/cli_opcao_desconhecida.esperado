@@ -1,0 +1,11 @@
+erro: opcao desconhecida: --xyz
+uso: macaronica [opcoes] arquivo.mac
+  -o saida.ll   gera LLVM IR em saida.ll (so se o programa for valido)
+                se o programa tem operacao vetorial, os nucleos saem
+                em MLIR no arquivo de mesmo nome com final .mlir
+  --reordena    deixa o otimizador somar reais em outra ordem nas
+                reducoes (somavet e prodesc de flut e duplocarpado)
+  --alvo=uno    confere se o programa cabe no Arduino Uno
+  --tokens      mostra os tokens antes da analise
+  --ast         mostra a arvore sintatica anotada com tipos
+  -h, --help    mostra esta ajuda

@@ -1,0 +1,27 @@
+inteira principal() @
+[
+    inteira vet{8} v;
+    inteira i, soma, maior;
+
+    repete ( i receba 0, i < 8, i receba i + 1 ) edai
+    [
+        v{i} receba i * i - 3 * i;
+    ]
+
+    soma receba 0;
+    maior receba v{0};
+    repete ( i receba 0, i < 8, i receba i + 1 ) edai
+    [
+        soma receba soma + v{i};
+        cond ( v{i} > maior ) edai
+        [
+            maior receba v{i};
+        ]
+    ]
+    escreva("soma");
+    escreva(soma);
+    escreva("maior");
+    escreva(maior);
+    escreva(soma / 8);
+    respost 0;
+]

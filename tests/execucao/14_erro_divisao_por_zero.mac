@@ -1,0 +1,9 @@
+inteira principal() @
+[
+    inteira d;
+    escreva("antes");
+    d receba 0;
+    escreva(10 // d);
+    escreva("nao chega aqui");
+    respost 0;
+]

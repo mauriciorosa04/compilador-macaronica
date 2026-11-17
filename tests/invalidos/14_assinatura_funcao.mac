@@ -1,0 +1,19 @@
+outrafuncao inteira soma(inteira a, inteira b) @
+[
+    respost a + b;
+]
+
+inteira principal() @
+[
+    inteira r;
+    palavra texto;
+
+    texto receba "oi";
+
+    r receba soma(1);
+    r receba soma(1, 2, 3);
+    r receba soma(texto, 2);
+    r receba dobro(4);
+
+    respost r;
+]

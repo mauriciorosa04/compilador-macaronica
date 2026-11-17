@@ -1,0 +1,26 @@
+inteira principal() @
+[
+    inteira vet{8} a, b, c;
+    flut vet{4} f, g;
+    inteira i;
+
+    repete ( i receba 0, i < 8, i receba i + 1 ) edai
+    [
+        a{i} receba i;
+        b{i} receba 2 * i + 1;
+    ]
+    c receba a + b;
+    escreva(c{7});
+    escreva(somavet(c));
+    escreva(maxvet(c));
+    escreva(prodesc(a, b));
+
+    repete ( i receba 0, i < 4, i receba i + 1 ) edai
+    [
+        f{i} receba i + 0.5;
+    ]
+    g receba 2 * f;
+    escreva(somavet(g));
+    escreva(maxvet(g));
+    respost 0;
+]

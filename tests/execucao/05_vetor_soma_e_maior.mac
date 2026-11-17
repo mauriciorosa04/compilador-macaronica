@@ -1,0 +1,35 @@
+inteira principal() @
+[
+    inteira vet{6} v;
+    inteira i, soma, maior;
+
+    v{0} receba 12;
+    v{1} receba 7;
+    v{2} receba 31;
+    v{3} receba 4;
+    v{4} receba 25;
+    v{5} receba 9;
+
+    soma receba 0;
+    maior receba v{0};
+    repete ( i receba 0, i < 6, i receba i + 1 ) edai
+    [
+        soma receba soma + v{i};
+        cond ( v{i} > maior ) edai
+        [
+            maior receba v{i};
+        ]
+    ]
+    escreva(soma);
+    escreva(maior);
+
+    flut vet{3} notas;
+    notas{0} receba 7.5;
+    notas{1} receba 8.0;
+    notas{2} receba 9.25;
+    escreva((notas{0} + notas{1} + notas{2}) / 3);
+
+    inteira vet{4} zerado;
+    escreva(zerado{3});
+    respost 0;
+]

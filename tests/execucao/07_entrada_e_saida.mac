@@ -1,0 +1,21 @@
+inteira principal() @
+[
+    inteira n, i, x, soma;
+    flut f;
+    duplocarpado d;
+
+    leia(n);
+    soma receba 0;
+    repete ( i receba 0, i < n, i receba i + 1 ) edai
+    [
+        leia(x);
+        soma receba soma + x;
+    ]
+    leia(f);
+    leia(d);
+    escreva("soma");
+    escreva(soma);
+    escreva(f * 2);
+    escreva(d);
+    respost 0;
+]

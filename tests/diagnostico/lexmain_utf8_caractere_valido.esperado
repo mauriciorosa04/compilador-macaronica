@@ -1,0 +1,5 @@
+[ERRO LEXICO] linha 5, coluna 14: caractere 'é' nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 5, coluna 16: caractere '€' nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 5, coluna 18: caractere '😀' nao pertence ao alfabeto da linguagem
+[ERRO SEMANTICO] linha 4, coluna 31: variavel 'y' usada sem ter sido declarada
+[ERRO SEMANTICO] linha 5, coluna 24: variavel 'z' usada sem ter sido declarada

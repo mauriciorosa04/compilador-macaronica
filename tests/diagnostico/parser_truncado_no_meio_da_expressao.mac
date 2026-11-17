@@ -1,0 +1,9 @@
+inteira principal() @
+[
+    inteira a;
+    a receba 1;
+    durante ( a < 10 ) edai
+    [
+        cond ( a > 5 ) edai
+        [
+            a receba ( a +

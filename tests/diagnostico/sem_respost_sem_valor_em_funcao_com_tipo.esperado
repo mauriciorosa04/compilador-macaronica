@@ -1,0 +1,2 @@
+[ERRO SEMANTICO] linha 3, coluna 5: 'dobro' deve devolver inteira, mas este respost esta' sem valor
+[AVISO SEMANTICO] linha 1, coluna 1: 'n' foi declarado mas nunca utilizado

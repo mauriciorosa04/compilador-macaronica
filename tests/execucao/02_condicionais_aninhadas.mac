@@ -1,0 +1,33 @@
+outrafuncao palavra faixa(inteira n) @
+[
+    cond ( n < 0 ) edai
+    [
+        respost "negativo";
+    ]
+    casocontrario cond ( n == 0 ) edai
+    [
+        respost "zero";
+    ]
+    casocontrario edai
+    [
+        cond ( n < 10 ) edai
+        [
+            cond ( n > 5 ) edai
+            [
+                respost "entre 6 e 9";
+            ]
+            respost "entre 1 e 5";
+        ]
+        respost "10 ou mais";
+    ]
+]
+
+inteira principal() @
+[
+    escreva(faixa(-5));
+    escreva(faixa(0));
+    escreva(faixa(3));
+    escreva(faixa(7));
+    escreva(faixa(42));
+    respost 0;
+]

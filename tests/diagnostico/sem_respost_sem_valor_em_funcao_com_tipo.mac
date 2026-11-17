@@ -1,0 +1,9 @@
+outrafuncao inteira dobro(inteira n) @
+[
+    respost;
+]
+
+inteira principal() @
+[
+    respost dobro(2);
+]

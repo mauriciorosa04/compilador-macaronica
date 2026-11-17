@@ -1,0 +1,56 @@
+inteira principal() @
+[
+    flut vet{4} a, c, r;
+    inteira i, iguais;
+
+    repete ( i receba 0, i < 4, i receba i + 1 ) edai
+    [
+        a{i} receba i + 0.5;
+    ]
+
+    escreva("3 * a");
+    c receba 3 * a;
+    iguais receba 0;
+    repete ( i receba 0, i < 4, i receba i + 1 ) edai
+    [
+        r{i} receba 3 * a{i};
+        cond ( c{i} == r{i} ) edai
+        [
+            iguais receba iguais + 1;
+        ]
+    ]
+    escreva(iguais);
+    escreva(c{0});
+    escreva(c{3});
+
+    escreva("a * 2");
+    c receba a * 2;
+    escreva(c{0});
+    escreva(c{3});
+
+    escreva("a - 1");
+    c receba a - 1;
+    escreva(c{0});
+    escreva(c{3});
+
+    escreva("10 - a");
+    c receba 10 - a;
+    iguais receba 0;
+    repete ( i receba 0, i < 4, i receba i + 1 ) edai
+    [
+        r{i} receba 10 - a{i};
+        cond ( c{i} == r{i} ) edai
+        [
+            iguais receba iguais + 1;
+        ]
+    ]
+    escreva(iguais);
+    escreva(c{0});
+    escreva(c{3});
+
+    escreva("a + 0.25");
+    c receba a + 0.25;
+    escreva(c{0});
+    escreva(c{3});
+    respost 0;
+]

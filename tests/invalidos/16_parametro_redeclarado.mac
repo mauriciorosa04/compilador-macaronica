@@ -1,0 +1,13 @@
+outrafuncao inteira dobro(inteira n) @
+[
+    inteira n;
+    n receba 2;
+    respost n * 2;
+]
+
+inteira principal() @
+[
+    inteira r;
+    r receba dobro(4);
+    respost r;
+]

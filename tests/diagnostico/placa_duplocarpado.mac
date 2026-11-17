@@ -1,0 +1,12 @@
+outrafuncao duplocarpado metade(duplocarpado x) @
+[
+    respost x / 2;
+]
+
+inteira principal() @
+[
+    duplocarpado d;
+    d receba metade(3);
+    escreva(d);
+    respost 0;
+]

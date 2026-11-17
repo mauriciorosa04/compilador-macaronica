@@ -1,0 +1,5 @@
+[ERRO SEMANTICO] linha 3, coluna 29: vetor 'grande' tem tamanho 3000000000, acima do maximo (2147483647)
+[ERRO SEMANTICO] linha 8, coluna 16: indice 5 fora do vetor 'v' (tamanho 5, indices validos de 0 a 4)
+[ERRO SEMANTICO] linha 9, coluna 16: indice negativo no vetor 'v'
+[ERRO SEMANTICO] linha 10, coluna 16: literal 99999999999 nao cabe em inteira (maximo 2147483647)
+[ERRO SEMANTICO] linha 11, coluna 16: indice 2000000000 fora do vetor 'g' (tamanho 2000000000, indices validos de 0 a 1999999999)

@@ -1,0 +1,10 @@
+inteira principal() @
+[
+    inteira vet{4} a, b, c;
+    c receba a;
+    c receba a / b;
+    c receba a + b + a;
+    c receba 1 + 2;
+    c receba a ^ 2;
+    respost 0;
+]

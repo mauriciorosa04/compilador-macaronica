@@ -1,0 +1,21 @@
+registro Aluno @
+[
+    palavra nome;
+    inteira idade;
+    flut nota;
+]
+
+inteira principal() @
+[
+    inteira tentativas;
+
+    tentativas receba 3;
+
+    durante ( tentativas > 0 ) edai
+    [
+        escreva(tentativas);
+        tentativas receba tentativas - 1;
+    ]
+
+    respost 0;
+]

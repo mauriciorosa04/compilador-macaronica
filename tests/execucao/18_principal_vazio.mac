@@ -1,0 +1,4 @@
+vazio principal() @
+[
+    escreva("principal vazio sai com 0");
+]

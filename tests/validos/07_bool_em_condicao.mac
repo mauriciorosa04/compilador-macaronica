@@ -1,0 +1,42 @@
+outrafuncao inteira sinal(inteira n) @
+[
+    cond ( n > 0 ) edai
+    [
+        respost 1;
+    ]
+    casocontrario cond ( n < 0 ) edai
+    [
+        respost -1;
+    ]
+    casocontrario edai
+    [
+        respost 0;
+    ]
+]
+
+inteira principal() @
+[
+    bool pronto, urgente;
+    inteira n;
+
+    pronto receba VER;
+    urgente receba FAL;
+    leia(n);
+
+    cond ( pronto ) edai
+    [
+        escreva("pronto");
+    ]
+
+    cond ( NAO urgente E n > 3 ) edai
+    [
+        escreva(sinal(n));
+    ]
+
+    durante ( pronto ) edai
+    [
+        pronto receba FAL;
+    ]
+
+    respost 0;
+]

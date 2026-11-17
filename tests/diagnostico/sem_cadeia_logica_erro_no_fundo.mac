@@ -1,0 +1,10 @@
+inteira principal() @
+[
+    inteira x;
+    x receba 1;
+    cond ( fantasma > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 E x > 0 ) edai
+    [
+        x receba 2;
+    ]
+    respost x;
+]

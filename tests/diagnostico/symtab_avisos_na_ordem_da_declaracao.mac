@@ -1,0 +1,9 @@
+inteira principal() @
+[
+    inteira zeta;
+    inteira alfa;
+    flut meio;
+    inteira vet{3} beta;
+    bool omega, delta;
+    respost 0;
+]

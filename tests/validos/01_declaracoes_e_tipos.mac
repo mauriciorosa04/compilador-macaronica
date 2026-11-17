@@ -1,0 +1,20 @@
+inteira principal() @
+[
+    inteira contador, total;
+    flut media;
+    duplocarpado precisao;
+    palavra mensagem;
+    bool pronto;
+
+    contador receba 10;
+    total receba contador + 5;
+    media receba total / 3;
+    precisao receba media * 2.5;
+    mensagem receba "macaronica funciona";
+    pronto receba VER;
+
+    escreva(mensagem);
+    escreva(precisao);
+
+    respost total;
+]

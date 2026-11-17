@@ -1,0 +1,25 @@
+registro Ponto @
+[
+    inteira x;
+    inteira vet{2} v;
+]
+
+inteira principal() @
+[
+    registro Ponto p, q;
+    registro Nada n;
+    inteira i;
+    i receba p;
+    p receba q;
+    i receba p.z;
+    i receba p.v;
+    i receba p.x{0};
+    i receba p.v{2};
+    i receba i.x;
+    i receba Ponto;
+    i receba Ponto.x;
+    p.x receba "texto";
+    leia(q.v{-1});
+    escreva(q.x);
+    respost 0;
+]

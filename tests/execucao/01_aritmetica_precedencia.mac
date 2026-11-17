@@ -1,0 +1,13 @@
+inteira principal() @
+[
+    escreva(2 + 3 * 4);
+    escreva((2 + 3) * 4);
+    escreva(10 - 4 - 3);
+    escreva(2 ^ 3 ^ 2);
+    escreva(100 // 7 // 2);
+    escreva(1 + 2 * 3 - 8 // 2);
+    escreva(-3 + 5);
+    escreva(-(3 + 5) * 2);
+    escreva(2 * 3 ^ 2);
+    respost 0;
+]

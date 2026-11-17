@@ -1,0 +1,62 @@
+inteira principal() @
+[
+    inteira vet{6} a, b, c, r;
+    inteira i, iguais;
+
+    repete ( i receba 0, i < 6, i receba i + 1 ) edai
+    [
+        a{i} receba i + 1;
+        b{i} receba 10 - i;
+    ]
+
+    escreva("soma");
+    c receba a + b;
+    iguais receba 0;
+    repete ( i receba 0, i < 6, i receba i + 1 ) edai
+    [
+        r{i} receba a{i} + b{i};
+        cond ( c{i} == r{i} ) edai
+        [
+            iguais receba iguais + 1;
+        ]
+    ]
+    escreva(iguais);
+    escreva(c{0});
+    escreva(c{5});
+
+    escreva("subtracao");
+    c receba a - b;
+    iguais receba 0;
+    repete ( i receba 0, i < 6, i receba i + 1 ) edai
+    [
+        r{i} receba a{i} - b{i};
+        cond ( c{i} == r{i} ) edai
+        [
+            iguais receba iguais + 1;
+        ]
+    ]
+    escreva(iguais);
+    escreva(c{0});
+    escreva(c{5});
+
+    escreva("multiplicacao");
+    c receba a * b;
+    iguais receba 0;
+    repete ( i receba 0, i < 6, i receba i + 1 ) edai
+    [
+        r{i} receba a{i} * b{i};
+        cond ( c{i} == r{i} ) edai
+        [
+            iguais receba iguais + 1;
+        ]
+    ]
+    escreva(iguais);
+    escreva(c{0});
+    escreva(c{5});
+
+    escreva("destino igual a um operando");
+    a receba a + b;
+    escreva(a{0});
+    escreva(a{5});
+    respost 0;
+]

@@ -1,0 +1,13 @@
+inteira principal() @
+[
+    inteira vet{5} notas;
+    inteira i;
+
+    notas{0} receba 10;
+    notas{4} receba 50;
+    notas{5} receba 60;
+    notas{9} receba 90;
+    i receba notas{-1};
+
+    respost i;
+]

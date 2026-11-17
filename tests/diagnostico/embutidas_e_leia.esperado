@@ -1,0 +1,5 @@
+[ERRO SEMANTICO] linha 6, coluna 5: leia() so le inteira, flut ou duplocarpado; 'b' e' bool
+[ERRO SEMANTICO] linha 7, coluna 5: leia() so le inteira, flut ou duplocarpado; 'p' e' palavra
+[ERRO SEMANTICO] linha 9, coluna 5: 'pinomodo' espera 2 argumento(s), mas recebeu 1
+[ERRO SEMANTICO] linha 10, coluna 21: argumento 2 de 'pinoescreve': esperava inteira, recebeu flut
+[ERRO SEMANTICO] linha 11, coluna 14: funcao vazio 'espera' nao produz valor e nao pode aparecer dentro de expressao

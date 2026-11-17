@@ -1,0 +1,5 @@
+inteira principal() @
+[
+    escreva("saindo com 7");
+    respost 7;
+]

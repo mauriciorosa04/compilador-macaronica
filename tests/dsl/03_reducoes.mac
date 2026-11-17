@@ -1,0 +1,51 @@
+inteira principal() @
+[
+    inteira vet{5} v;
+    flut vet{4} f;
+    inteira vet{3} w;
+    inteira vet{1} u;
+    inteira i, soma, maior;
+
+    v{0} receba 3;
+    v{1} receba -7;
+    v{2} receba 12;
+    v{3} receba 5;
+    v{4} receba 9;
+
+    soma receba 0;
+    maior receba v{0};
+    repete ( i receba 0, i < 5, i receba i + 1 ) edai
+    [
+        soma receba soma + v{i};
+        cond ( v{i} > maior ) edai
+        [
+            maior receba v{i};
+        ]
+    ]
+    escreva("somavet e a soma feita a mao");
+    escreva(somavet(v));
+    escreva(soma);
+    escreva("maxvet e o maior achado a mao");
+    escreva(maxvet(v));
+    escreva(maior);
+
+    f{0} receba 0.5;
+    f{1} receba 2.25;
+    f{2} receba -1.0;
+    f{3} receba 4.0;
+    escreva("vetor de flut");
+    escreva(somavet(f));
+    escreva(maxvet(f));
+
+    w{0} receba -5;
+    w{1} receba -2;
+    w{2} receba -9;
+    escreva("so negativos");
+    escreva(maxvet(w));
+
+    u{0} receba 42;
+    escreva("vetor de um elemento");
+    escreva(somavet(u));
+    escreva(maxvet(u));
+    respost 0;
+]

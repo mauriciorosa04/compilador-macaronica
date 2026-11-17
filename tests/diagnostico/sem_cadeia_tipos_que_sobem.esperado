@@ -1,0 +1,5 @@
+[ERRO SEMANTICO] linha 5, coluna 7: tipos incompativeis: 'x' e' inteira e nao pode receber flut
+[ERRO SEMANTICO] linha 6, coluna 7: tipos incompativeis: 'x' e' inteira e nao pode receber flut
+[ERRO SEMANTICO] linha 9, coluna 20: operador '*' exige operandos numericos, recebeu inteira e palavra
+[ERRO SEMANTICO] linha 9, coluna 39: operador '-' exige operandos numericos, recebeu inteira e bool
+[ERRO SEMANTICO] linha 10, coluna 18: operador logico 'E' exige operandos bool, recebeu bool e flut

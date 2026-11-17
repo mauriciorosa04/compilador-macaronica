@@ -1,0 +1,21 @@
+outrafuncao inteira somapares(inteira n) @
+[
+    inteira i, soma, resto;
+    soma receba 0;
+    repete ( i receba 0, i < n, i receba i + 1 ) edai
+    [
+        resto receba i - i // 2 * 2;
+        cond ( resto == 0 ) edai
+        [
+            soma receba soma + i;
+        ]
+    ]
+    respost soma;
+]
+
+inteira principal() @
+[
+    escreva(somapares(10));
+    escreva(somapares(0));
+    respost 0;
+]

@@ -1,0 +1,14 @@
+inteira principal() @
+[
+    inteira x;
+
+    x receba 10
+    x receba x + 1;
+
+    cond ( x > 5 edai
+    [
+        escreva(x);
+    ]
+
+    respost x;
+]

@@ -1,0 +1,60 @@
+inteira contador;
+palavra saudacao;
+flut vet{3} pesos;
+
+outrafuncao vazio conta() @
+[
+    contador receba contador + 1;
+]
+
+outrafuncao bool par(inteira n) @
+[
+    inteira resto;
+    resto receba n - n // 2 * 2;
+    cond ( resto == 0 ) edai
+    [
+        respost VER;
+    ]
+    respost FAL;
+]
+
+inteira principal() @
+[
+    palavra a, b, nada;
+
+    escreva(contador);
+    conta();
+    conta();
+    conta();
+    escreva(contador);
+
+    saudacao receba "pasta c:\temp, 100% certo";
+    escreva(saudacao);
+
+    a receba "abc";
+    b receba "abc";
+    cond ( a == b ) edai
+    [
+        escreva("palavras iguais");
+    ]
+    b receba "abd";
+    cond ( a ! b ) edai
+    [
+        escreva("palavras diferentes");
+    ]
+
+    escreva(nada);
+    b receba "";
+    cond ( nada == b ) edai
+    [
+        escreva("palavra nasce vazia");
+    ]
+
+    escreva(par(10));
+    escreva(par(7));
+
+    pesos{1} receba 2.5;
+    escreva(pesos{0} + pesos{1});
+    escreva("acentuação");
+    respost 0;
+]

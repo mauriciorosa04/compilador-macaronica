@@ -1,0 +1,6 @@
+linhas com tipo de vetor no IR dos nucleos (N = 1000000), depois do opt -O2
+sem alvo (sem -mtriple):        i32 0   float 0
+com alvo (-mcpu=native):        i32 609   float 400
+com alvo e --reordena:          i32 609   float 609
+
+largura usada:     609 <16 x float>;    609 <16 x i32>;

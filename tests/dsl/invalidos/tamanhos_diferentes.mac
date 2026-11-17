@@ -1,0 +1,9 @@
+inteira principal() @
+[
+    inteira vet{4} a, c;
+    inteira vet{8} b;
+    c receba a + b;
+    b receba a * a;
+    escreva(prodesc(a, b));
+    respost 0;
+]

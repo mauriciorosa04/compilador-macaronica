@@ -1,0 +1,18 @@
+inteira principal() @
+[
+    inteira a, b;
+
+    escreva(7 / 2);
+    escreva(7 // 2);
+    escreva(-7 // 2);
+    escreva(1 / 3);
+    escreva(6 / 3);
+    escreva(7.0 / 2);
+
+    a receba 17;
+    b receba 5;
+    escreva(a // b);
+    escreva(a / b);
+    escreva(a - a // b * b);
+    respost 0;
+]

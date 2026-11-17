@@ -1,0 +1,32 @@
+outrafuncao inteira quadrado(inteira n) @
+[
+    respost n * n;
+]
+
+outrafuncao flut hipotenusa(flut a, flut b) @
+[
+    respost raiz(a ^ 2 + b ^ 2);
+]
+
+outrafuncao vazio saudacao() @
+[
+    escreva("bem vindo ao macaronica");
+    respost;
+]
+
+inteira principal() @
+[
+    inteira numero, resultado;
+    flut h;
+
+    saudacao();
+
+    numero receba 5;
+    resultado receba quadrado(numero);
+    h receba hipotenusa(3.0, 4.0);
+
+    escreva(resultado);
+    escreva(h);
+
+    respost 0;
+]

@@ -1,0 +1,7 @@
+[ERRO LEXICO] linha 4, coluna 15: byte nulo (0x00) no meio do arquivo
+[ERRO LEXICO] linha 5, coluna 20: byte nulo (0x00) no meio do arquivo
+[ERRO LEXICO] linha 4, coluna 14: byte 0x80 nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 4, coluna 16: byte 0x80 nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 5, coluna 18: caractere 'é' nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 5, coluna 19: byte 0xA9 nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 5, coluna 21: simbolo '#' nao pertence ao alfabeto da linguagem

@@ -1,0 +1,36 @@
+inteira principal() @
+[
+    inteira i;
+    flut f;
+    duplocarpado d;
+
+    i receba 7;
+    f receba i;
+    d receba f;
+    escreva(f);
+    escreva(d);
+
+    f receba i + 0.5;
+    escreva(f);
+
+    d receba f * i;
+    escreva(d);
+
+    d receba d + f + i;
+    escreva(d);
+
+    d receba 1;
+    d receba d / 4;
+    escreva(d);
+
+    cond ( i < f ) edai
+    [
+        escreva("inteira menor que flut");
+    ]
+    cond ( d < i ) edai
+    [
+        escreva("duplocarpado menor que inteira");
+    ]
+    escreva(i * 2.5);
+    respost 0;
+]

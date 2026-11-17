@@ -1,0 +1,9 @@
+inteira principal() @
+[
+    inteira x;
+
+    x receba contador + 1;
+    saldo receba 100;
+
+    respost x;
+]

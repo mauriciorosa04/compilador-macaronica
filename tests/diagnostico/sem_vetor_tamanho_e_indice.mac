@@ -1,0 +1,14 @@
+inteira principal() @
+[
+    inteira vet{3000000000} grande;
+    inteira vet{2000000000} g;
+    inteira vet{5} v;
+    inteira x;
+    x receba v{-0};
+    x receba v{5};
+    x receba v{-1};
+    x receba v{99999999999};
+    x receba g{2000000000};
+    x receba grande{0};
+    respost x;
+]

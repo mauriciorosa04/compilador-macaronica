@@ -1,0 +1,7 @@
+[ERRO SEMANTICO] linha 4, coluna 7: o vetor 'c' inteiro so recebe UMA operacao vetorial por atribuicao: dois vetores, ou um numero e um vetor, ligados por +, - ou * (pra um elemento so, use c{indice} receba ...)
+[ERRO SEMANTICO] linha 5, coluna 7: o vetor 'c' inteiro so recebe UMA operacao vetorial por atribuicao: dois vetores, ou um numero e um vetor, ligados por +, - ou * (pra um elemento so, use c{indice} receba ...)
+[ERRO SEMANTICO] linha 6, coluna 7: o vetor 'c' inteiro so recebe UMA operacao vetorial por atribuicao: dois vetores, ou um numero e um vetor, ligados por +, - ou * (pra um elemento so, use c{indice} receba ...)
+[ERRO SEMANTICO] linha 7, coluna 7: o vetor 'c' inteiro so recebe UMA operacao vetorial por atribuicao: dois vetores, ou um numero e um vetor, ligados por +, - ou * (pra um elemento so, use c{indice} receba ...)
+[ERRO SEMANTICO] linha 8, coluna 7: o vetor 'c' inteiro so recebe UMA operacao vetorial por atribuicao: dois vetores, ou um numero e um vetor, ligados por +, - ou * (pra um elemento so, use c{indice} receba ...)
+[AVISO SEMANTICO] linha 3, coluna 1: 'a' foi declarado mas nunca utilizado
+[AVISO SEMANTICO] linha 3, coluna 1: 'b' foi declarado mas nunca utilizado

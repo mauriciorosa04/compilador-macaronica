@@ -1,0 +1,5 @@
+[ERRO LEXICO] linha 1, coluna 1: byte 0x80 nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 1, coluna 2: byte 0xBF nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 1, coluna 3: byte 0x80 nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 1, coluna 4: byte 0x80 nao pertence ao alfabeto da linguagem
+[ERRO LEXICO] linha 1, coluna 5: simbolo '$' nao pertence ao alfabeto da linguagem

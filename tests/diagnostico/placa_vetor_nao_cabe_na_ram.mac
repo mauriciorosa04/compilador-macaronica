@@ -1,0 +1,6 @@
+inteira principal() @
+[
+    inteira vet{500} v;
+    v{0} receba 1;
+    respost v{0};
+]

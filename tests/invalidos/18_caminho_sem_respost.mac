@@ -1,0 +1,26 @@
+outrafuncao inteira classifica(inteira n) @
+[
+    cond ( n > 0 ) edai
+    [
+        respost 1;
+    ]
+    casocontrario cond ( n < 0 ) edai
+    [
+        respost -1;
+    ]
+]
+
+outrafuncao inteira primeiro(inteira n) @
+[
+    durante ( n > 0 ) edai
+    [
+        respost n;
+    ]
+]
+
+inteira principal() @
+[
+    inteira r;
+    r receba classifica(3) + primeiro(2);
+    respost r;
+]

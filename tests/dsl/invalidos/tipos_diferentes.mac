@@ -1,0 +1,15 @@
+inteira principal() @
+[
+    inteira vet{4} a, c;
+    flut vet{4} f;
+    bool vet{4} m;
+    inteira x;
+    c receba a + f;
+    c receba 2.5 * a;
+    f receba 2 * f;
+    m receba m + m;
+    escreva(prodesc(a, f));
+    escreva(somavet(x));
+    escreva(maxvet(m));
+    respost 0;
+]

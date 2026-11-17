@@ -1,0 +1,2 @@
+[ERRO SEMANTICO] linha 5, coluna 14: literal 2147483648 nao cabe em inteira (maximo 2147483647)
+[ERRO SEMANTICO] linha 7, coluna 14: literal 99999999999999999999999999 nao cabe em inteira (maximo 2147483647)

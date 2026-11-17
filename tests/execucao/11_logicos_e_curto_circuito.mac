@@ -1,0 +1,68 @@
+inteira principal() @
+[
+    inteira vet{3} v;
+    inteira i;
+    bool a, b;
+
+    v{0} receba 5;
+    v{1} receba 0;
+    v{2} receba 8;
+    a receba VER;
+    b receba FAL;
+
+    cond ( a E b ) edai
+    [
+        escreva("E errado");
+    ]
+    casocontrario edai
+    [
+        escreva("VER E FAL = FAL");
+    ]
+    cond ( a OU b ) edai
+    [
+        escreva("VER OU FAL = VER");
+    ]
+    cond ( a XOR b ) edai
+    [
+        escreva("VER XOR FAL = VER");
+    ]
+    cond ( a XOR a ) edai
+    [
+        escreva("XOR errado");
+    ]
+    casocontrario edai
+    [
+        escreva("VER XOR VER = FAL");
+    ]
+    cond ( NAO b ) edai
+    [
+        escreva("NAO FAL = VER");
+    ]
+
+    i receba 7;
+    cond ( i < 3 E v{i} > 0 ) edai
+    [
+        escreva("nao devia entrar");
+    ]
+    casocontrario edai
+    [
+        escreva("curto-circuito do E: o vetor nem foi lido");
+    ]
+    cond ( i > 3 OU v{i} > 0 ) edai
+    [
+        escreva("curto-circuito do OU: o vetor nem foi lido");
+    ]
+
+    i receba 0;
+    durante ( i < 3 E v{i} > 0 ) edai
+    [
+        i receba i + 1;
+    ]
+    escreva(i);
+
+    cond ( (a OU b) E NAO (a E b) ) edai
+    [
+        escreva("parenteses");
+    ]
+    respost 0;
+]

@@ -1,0 +1,27 @@
+inteira principal() @
+[
+    inteira idade, renda;
+
+    leia(idade);
+    leia(renda);
+
+    cond ( idade > 17 E renda > 1000 ) edai
+    [
+        escreva("aprovado");
+    ]
+    casocontrario cond ( idade > 17 OU renda > 5000 ) edai
+    [
+        escreva("analise manual");
+    ]
+    casocontrario edai
+    [
+        escreva("reprovado");
+    ]
+
+    cond ( NAO (idade < 0) XOR renda == 0 ) edai
+    [
+        escreva("caso curioso");
+    ]
+
+    respost 0;
+]

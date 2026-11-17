@@ -1,0 +1,10 @@
+inteira principal() @
+[
+    inteira vet{3} v;
+    inteira i;
+    escreva("antes");
+    i receba 3;
+    v{i} receba 1;
+    escreva("nao chega aqui");
+    respost 0;
+]

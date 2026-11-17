@@ -1,0 +1,12 @@
+inteira principal() @
+[
+    inteira vet{4} v;
+    inteira i;
+    escreva("antes do erro");
+    repete ( i receba 0, i < 5, i receba i + 1 ) edai
+    [
+        v{i} receba i;
+    ]
+    escreva("nao chega aqui");
+    respost 0;
+]

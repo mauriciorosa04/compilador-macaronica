@@ -1,0 +1,13 @@
+[ERRO SEMANTICO] linha 10, coluna 14: 'Nada' nao e' um tipo de registro declarado
+[ERRO SEMANTICO] linha 12, coluna 14: 'p' e' um registro: use um campo dele (p.campo)
+[ERRO SEMANTICO] linha 13, coluna 14: 'q' e' um registro: use um campo dele (q.campo)
+[ERRO SEMANTICO] linha 13, coluna 5: 'p' e' um registro: atribua campo a campo (p.campo receba ...)
+[ERRO SEMANTICO] linha 14, coluna 16: registro 'Ponto' nao tem campo 'z'
+[ERRO SEMANTICO] linha 15, coluna 16: campo 'v' e' um vetor: acesse um elemento com p.v{indice}
+[ERRO SEMANTICO] linha 16, coluna 16: campo 'x' nao e' um vetor
+[ERRO SEMANTICO] linha 17, coluna 18: indice 2 fora do vetor 'v' (tamanho 2, indices validos de 0 a 1)
+[ERRO SEMANTICO] linha 18, coluna 14: 'i' nao e' um registro e nao tem campo 'x'
+[ERRO SEMANTICO] linha 19, coluna 14: 'Ponto' e' o nome de um tipo de registro, nao um valor
+[ERRO SEMANTICO] linha 20, coluna 14: 'Ponto' e' o nome de um tipo de registro; declare uma variavel dele: registro Ponto nome;
+[ERRO SEMANTICO] linha 21, coluna 9: tipos incompativeis: campo 'x' e' inteira e nao pode receber palavra
+[ERRO SEMANTICO] linha 22, coluna 14: indice negativo no vetor 'v'

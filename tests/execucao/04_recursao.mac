@@ -1,0 +1,26 @@
+outrafuncao inteira fatorial(inteira n) @
+[
+    cond ( n < 2 ) edai
+    [
+        respost 1;
+    ]
+    respost n * fatorial(n - 1);
+]
+
+outrafuncao inteira fib(inteira n) @
+[
+    cond ( n < 2 ) edai
+    [
+        respost n;
+    ]
+    respost fib(n - 1) + fib(n - 2);
+]
+
+inteira principal() @
+[
+    escreva(fatorial(5));
+    escreva(fatorial(10));
+    escreva(fib(10));
+    escreva(fib(20));
+    respost 0;
+]

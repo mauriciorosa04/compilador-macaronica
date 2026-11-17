@@ -1,0 +1,14 @@
+inteira contador;
+
+outrafuncao vazio conta() @
+[
+    contador receba contador + 1;
+]
+
+inteira principal() @
+[
+    inteira local;
+    conta();
+    escreva(contador + local);
+    respost 0;
+]

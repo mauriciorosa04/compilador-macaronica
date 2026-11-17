@@ -1,0 +1,21 @@
+inteira principal() @
+[
+    inteira x, i;
+    x receba 10;
+    cond ( x > 5 ) edai
+    [
+        inteira x;
+        escreva(x);
+        x receba 99;
+        escreva(x);
+    ]
+    escreva(x);
+
+    repete ( i receba 0, i < 3, i receba i + 1 ) edai
+    [
+        inteira acumulado;
+        acumulado receba acumulado + i;
+        escreva(acumulado);
+    ]
+    respost 0;
+]

@@ -1,0 +1,14 @@
+inteira principal() @
+[
+    inteira x, m;
+    x receba 2147483647;
+    x receba x + 1;
+    escreva(x);
+    m receba -1;
+    escreva(x // m);
+    escreva(-2147483648);
+    x receba 65536;
+    escreva(x * x);
+    escreva(7 // m);
+    respost 0;
+]

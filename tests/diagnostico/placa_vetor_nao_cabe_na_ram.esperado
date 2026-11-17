@@ -1,0 +1,1 @@
+[ERRO SEMANTICO] linha 3, coluna 22: o programa precisa de 2000 bytes de RAM pra variaveis e textos, e no alvo uno cabem 1600 (2048 da placa menos 448 reservados pra biblioteca e pra pilha); a maior variavel e' 'v', com 2000 bytes

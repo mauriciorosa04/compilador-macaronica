@@ -1,0 +1,9 @@
+inteira principal() @
+[
+    inteira a, b;
+    leia(a);
+    escreva(a);
+    leia(b);
+    escreva(b);
+    respost 0;
+]

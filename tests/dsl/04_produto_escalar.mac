@@ -1,0 +1,36 @@
+inteira principal() @
+[
+    inteira vet{4} a, b;
+    flut vet{2} x, y;
+    duplocarpado vet{2} da, db;
+    inteira i, soma;
+
+    repete ( i receba 0, i < 4, i receba i + 1 ) edai
+    [
+        a{i} receba i + 1;
+        b{i} receba i + 5;
+    ]
+    soma receba 0;
+    repete ( i receba 0, i < 4, i receba i + 1 ) edai
+    [
+        soma receba soma + a{i} * b{i};
+    ]
+    escreva("prodesc e a conta feita a mao");
+    escreva(prodesc(a, b));
+    escreva(soma);
+
+    x{0} receba 0.5;
+    x{1} receba 1.5;
+    y{0} receba 2.0;
+    y{1} receba 4.0;
+    escreva("flut");
+    escreva(prodesc(x, y));
+
+    da{0} receba 1.5;
+    da{1} receba 2.5;
+    db{0} receba 2;
+    db{1} receba 4;
+    escreva("duplocarpado");
+    escreva(prodesc(da, db));
+    respost 0;
+]

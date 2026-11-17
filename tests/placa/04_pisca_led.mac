@@ -1,0 +1,20 @@
+inteira principal() @
+[
+    inteira i, lido;
+
+    pinomodo(13, 1);
+    repete ( i receba 0, i < 3, i receba i + 1 ) edai
+    [
+        pinoescreve(13, 1);
+        lido receba pinole(13);
+        escreva(lido);
+        espera(200);
+
+        pinoescreve(13, 0);
+        lido receba pinole(13);
+        escreva(lido);
+        espera(200);
+    ]
+    escreva("fim");
+    respost 0;
+]

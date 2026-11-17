@@ -1,0 +1,15 @@
+inteira principal() @
+[
+    inteira x;
+    flut f;
+    x receba 1 + 2 + 3.5 + 4 + 5;
+    x receba 8 / 2 / 2;
+    x receba 9 // 2 // 2 * 3 - 1;
+    f receba 1 + 2 * 3 - 4 / 5 + 6;
+    x receba 1 + 2 * "a" * 3 + 4 + (5 - VER - 6) + 7;
+    cond ( x > 1 E f E x > 2 OU x > 3 ) edai
+    [
+        x receba 0;
+    ]
+    respost x;
+]

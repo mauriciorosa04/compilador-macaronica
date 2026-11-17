@@ -1,0 +1,17 @@
+inteira principal() @
+[
+    duplocarpado d;
+
+    escreva(2 ^ 10);
+    escreva(2 ^ 0);
+    escreva(-3 ^ 3);
+    escreva(2 ^ -1);
+    escreva(2.0 ^ 3);
+    escreva(raiz(16));
+    escreva(raiz(2.25));
+    d receba 81;
+    escreva(raiz(d));
+    escreva(raiz(3 ^ 2 + 4 ^ 2));
+    escreva(9 ^ 0.5);
+    respost 0;
+]

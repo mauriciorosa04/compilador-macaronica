@@ -1,0 +1,6 @@
+[ERRO SEMANTICO] linha 7, coluna 18: a operacao vetorial exige vetores do mesmo tipo: 'f' e' de flut e 'c' e' de inteira
+[ERRO SEMANTICO] linha 8, coluna 14: na operacao vetorial o numero e' flut, e o vetor 'c' e' de inteira
+[ERRO SEMANTICO] linha 10, coluna 5: operacao vetorial so vale pra vetor de inteira, flut ou duplocarpado; 'm' e' vetor de bool
+[ERRO SEMANTICO] linha 11, coluna 13: prodesc exige vetores do mesmo tipo: 'a' e' de inteira e 'f' e' de flut
+[ERRO SEMANTICO] linha 12, coluna 21: somavet espera o nome de um vetor, e 'x' nao e' vetor
+[ERRO SEMANTICO] linha 13, coluna 20: maxvet so vale pra vetor de inteira, flut ou duplocarpado; 'm' e' vetor de bool

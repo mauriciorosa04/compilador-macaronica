@@ -1,0 +1,13 @@
+outrafuncao inteira f(vazio nada) @
+[
+    cond ( nada ) edai
+    [
+        respost 1;
+    ]
+    respost nada + 1;
+]
+
+inteira principal() @
+[
+    respost 0;
+]

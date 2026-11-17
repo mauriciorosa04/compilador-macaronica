@@ -1,0 +1,3 @@
+[ERRO SEMANTICO] linha 5, coluna 18: a operacao vetorial exige vetores do mesmo tamanho: 'b' tem 8 elemento(s) e 'c' tem 4
+[ERRO SEMANTICO] linha 6, coluna 14: a operacao vetorial exige vetores do mesmo tamanho: 'a' tem 4 elemento(s) e 'b' tem 8
+[ERRO SEMANTICO] linha 7, coluna 13: prodesc exige vetores do mesmo tamanho: 'a' tem 4 elemento(s) e 'b' tem 8
